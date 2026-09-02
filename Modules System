@@ -1,0 +1,14 @@
+* There are roughly 10 to 15 core system modules
+* Engine-Level System Modules
+Get-Module -Path "$PSHOME\Modules" -ListAvailable
+Microsoft.PowerShell.Management
+Microsoft.PowerShell.Utility
+
+* Windows OS Administration Modules
+Get-Module -Path "$env:SystemRoot\System32\WindowsPowerShell\v1.0\Modules" -ListAvailable
+NetSecurity
+Storage
+BitLocker
+
+
+
