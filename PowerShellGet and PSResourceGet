@@ -1,14 +1,53 @@
 PowerShellGet is the native package manager for PowerShell. 
-It has been mostly replaced by Microsoft.PowerShell.PSResourceGet
+
+*** It has been mostly replaced by Microsoft.PowerShell.PSResourceGet
 
 PowerShellGet provides the cmdlets needed to discover, install, update, 
 and publish PowerShell artifacts like modules, scripts, 
 and DSC (Desired State Configuration) resources.
 
+see the traditional package manager details
+Get-Module -Name PowerShellGet -ListAvailable | Select-Object Name, Version
+
+see if the fast, modern package management successor is installed
+Get-Module -Name Microsoft.PowerShell.PSResourceGet -ListAvailable | Select-Object Name, Version
+-->
+Name                               Version
+----                               -------
+Microsoft.PowerShell.PSResourceGet 1.2.0  
+
+see both versions 
+Get-Module -Name PowerShellGet, Microsoft.PowerShell.PSResourceGet -ListAvailable | Select-Object Name, Version, Path
+
+How to Update Them to the Latest Version
+If you notice your versions are outdated, you can upgrade them directly from the console:
+To update the legacy tool: 
+Update-Module -Name PowerShellGet -Force
+To install/update the modern tool: 
+Install-Module -Name Microsoft.PowerShell.PSResourceGet -Force
+
+==============
 Find-Module: Searches online repositories (like the PowerShell Gallery) for tools.
 Install-Module: Downloads and installs a module onto your local machine.
 Update-Module: Grabs the newest version of an installed module.
 Uninstall-Module Safely removes a module from your system paths.
+
+Find-Module
+Find-PSResource
+
+Install-Module
+Install-PSResource
+
+Update-Module
+Update-PSResource
+
+Uninstall-Module
+Uninstall-PSResource
+
+Modern versions of PowerShell ship with a compatibility layer so running legacy 
+commands like Install-Module seamlessly passes the instructions over to the new 
+engine behind the scenes).
+
 
 
 
