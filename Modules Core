@@ -2,6 +2,7 @@ Microsoft.PowerShell.Core
 * about 100 commands
 Get-Command -Module Microsoft.PowerShell.Core | Select-Object -ExpandProperty Name
 
+* cmdLets : 
 Add-History
 Add-PSSnapin
 Clear-History
@@ -67,6 +68,51 @@ Unregister-PSSessionConfiguration
 Update-Help
 Wait-Job
 Where-Object
+
+* Functions
+Get-Command -CommandType Function | Where-Object { -not $_.Source }
+CommandType     Name                                               Version    Source        
+-----------     ----                                               -------    ------        
+Function        A:                                                                          
+Function        B:                                                                          
+Function        C:                                                                          
+Function        cd..                                                                        
+Function        cd\                                                                         
+Function        Clear-Host                                                                  
+Function        D:                                                                          
+Function        E:                                                                          
+Function        F:                                                                          
+Function        G:                                                                          
+Function        Get-Verb                                                                    
+Function        H:                                                                          
+Function        help                                                                        
+Function        I:                                                                          
+Function        ImportSystemModules                                                         
+Function        J:                                                                          
+Function        K:                                                                          
+Function        L:                                                                          
+Function        M:                                                                          
+Function        mkdir                                                                       
+Function        N:                                                                          
+Function        O:                                                                          
+Function        oss                                                                         
+Function        P:                                                                          
+Function        Pause                                                                       
+Function        prompt                                                                      
+Function        psEdit                                                                      
+Function        Q:                                                                          
+Function        R:                                                                          
+Function        S:                                                                          
+Function        T:                                                                          
+Function        TabExpansion2                                                               
+Function        U:                                                                          
+Function        V:                                                                          
+Function        W:                                                                          
+Function        X:                                                                          
+Function        Y:                                                                          
+Function        Z:                                                                          
+
+
 
 
 
