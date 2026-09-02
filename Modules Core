@@ -18,7 +18,9 @@ Exit-PSHostProcess
 Exit-PSSession
 Export-Console
 Export-ModuleMember
+***
 ForEach-Object
+***
 Get-Command
 Get-Help
 Get-History
@@ -29,7 +31,6 @@ Get-PSSession
 Get-PSSessionCapability
 Get-PSSessionConfiguration
 Get-PSSnapin
-
 ***
 Import-Module
 Invoke-Command
