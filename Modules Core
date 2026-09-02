@@ -1,7 +1,76 @@
 Microsoft.PowerShell.Core
 * about 100 commands
+Get-Command -Module Microsoft.PowerShell.Core | Select-Object -ExpandProperty Name
+
+Add-History
+Add-PSSnapin
+Clear-History
+Connect-PSSession
+Debug-Job
+Disable-PSRemoting
+Disable-PSSessionConfiguration
+Disconnect-PSSession
+Enable-PSRemoting
+Enable-PSSessionConfiguration
+Enter-PSHostProcess
+Enter-PSSession
+Exit-PSHostProcess
+Exit-PSSession
+Export-Console
+Export-ModuleMember
+ForEach-Object
+Get-Command
+Get-Help
+Get-History
+Get-Job
+Get-Module
+Get-PSHostProcessInfo
+Get-PSSession
+Get-PSSessionCapability
+Get-PSSessionConfiguration
+Get-PSSnapin
+
+***
+Import-Module
+Invoke-Command
+Invoke-History
+New-Module
+New-ModuleManifest
+New-PSRoleCapabilityFile
+New-PSSession
+New-PSSessionConfigurationFile
+New-PSSessionOption
+New-PSTransportOption
+Out-Default
+Out-Host
+Out-Null
+Receive-Job
+Receive-PSSession
+Register-ArgumentCompleter
+Register-PSSessionConfiguration
+Remove-Job
+Remove-Module
+Remove-PSSession
+Remove-PSSnapin
+Resume-Job
+Save-Help
+Set-PSDebug
+Set-PSSessionConfiguration
+Set-StrictMode
+Start-Job
+Stop-Job
+Suspend-Job
+Test-ModuleManifest
+Test-PSSessionConfigurationFile
+Unregister-PSSessionConfiguration
+Update-Help
+Wait-Job
+Where-Object
 
 
-Get-Module -Path "$PSHOME\Modules" -ListAvailable
+
+
+
+
 
 
