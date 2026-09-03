@@ -1,0 +1,22 @@
+
+
+Get-Member (or gm): Isolate a specific variable or command in the script and pipe it to Get-Member. It strips away the mystery by printing every property (data) and method (actions) available on that object
+
+complex custom object
+
+Set-PSDebug -Trace 1
+
+the noun prefix usually gives away the module
+
+Get-Help <CmdletName> -Detailed
+
+rich objects
+
+$variable | Get-Member
+
+Get-UnfamiliarCmdlet | Select-Object -First 1 *
+
+www.powershellgallery.com
+
+
+
