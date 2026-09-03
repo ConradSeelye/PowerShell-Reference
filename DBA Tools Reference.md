@@ -25,7 +25,7 @@ Start-DbaMigration -Source abc -Destination def -SharedPath "NAS\Backup" -WhatIf
 
 
 quiz  
-1.   
+1.   Get DbaTools all set up and ready to use locally. 
 2.  
 3.   
 4.   
