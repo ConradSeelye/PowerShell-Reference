@@ -2,6 +2,8 @@ Microsoft.PowerShell.Core
 * about 100 commands
 Get-Command -Module Microsoft.PowerShell.Core | Select-Object -ExpandProperty Name
 
+
+
 * cmdLets : 
 Add-History
 Add-PSSnapin
