@@ -1,6 +1,7 @@
 PowerShellGet is the native package manager for PowerShell. 
 
 *** It has been mostly replaced by Microsoft.PowerShell.PSResourceGet
+https://www.google.com/url?sa=i&source=web&rct=j&url=https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.psresourceget/?view%3Dpowershellget-3.x&ved=2ahUKEwjb08m7mtGWAxU4ie4BHV_lC1gQy_kOegoIAggACAAIHRAC&opi=89978449&cd&psig=AOvVaw2DkuDf-eAuJYphl0iJ96JY&ust=1788483526576000
 
 PowerShellGet provides the cmdlets needed to discover, install, update, 
 and publish PowerShell artifacts like modules, scripts, 
