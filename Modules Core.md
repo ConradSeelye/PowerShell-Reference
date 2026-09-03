@@ -4,10 +4,11 @@ Get-Command -Module Microsoft.PowerShell.Core | Select-Object -ExpandProperty Na
 
 # To Know #
 ## cmdLets ##
-Get-Command  
-Get-Module  
-Import-Module  
-
+```diff
++ Get-Command  
+- Get-Module  
+! Import-Module  
+```
 ## Functions ##
 Clear-Host   
 Get-Verb 
