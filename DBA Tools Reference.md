@@ -1,4 +1,4 @@
-**DbaTools Reference**
+**DbaTools Reference**  
 [Quiz](#Quiz)
 
 Set-PsRepository -Name PSGallery  
@@ -23,7 +23,8 @@ Invoke-DbaQuery -SqlInstnace sqlserver1 -Query "SELECT @@SERVERNAME"
 Copy-DbaLogin -Source abc -Destination def  
 Start-DbaMigration -Source abc -Destination def -SharedPath "NAS\Backup" -WhatIf  
 
-##quiz[quiz]
+## Setup Instructions
+## quiz
 1. 
 2. 
 3. 
