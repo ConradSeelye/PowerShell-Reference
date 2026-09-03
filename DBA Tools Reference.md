@@ -1,3 +1,4 @@
+**DbaTools Reference**
 Set-PsRepository -Name PSGallery
 Install-Moduel dbaTools -Scope CurrentUser
 Import-Moduel dbaTools
