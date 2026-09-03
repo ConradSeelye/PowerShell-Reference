@@ -1,0 +1,9 @@
+
+PS Blog
+https://www.google.com/url?sa=i&source=web&rct=j&url=https://devblogs.microsoft.com/powershell/psresourceget-is-generally-available/&ved=2ahUKEwiTi6GNm9GWAxWIM0QIHazGH5kQy_kOegYIAAgPEAE&opi=89978449&cd&psig=AOvVaw1bPUk8hPRkK7OJbiAECUe8&ust=1788483697935000
+
+Get PS version :
+$Host.Version
+
+
+
