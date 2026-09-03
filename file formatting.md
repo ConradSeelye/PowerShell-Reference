@@ -9,6 +9,16 @@ plain
 ## header2
 ### header3
 
+Internal links :
+
+<!-- The Link -->
+Jump to the [Setup Instructions](#setup-instructions) section.
+
+... lots of content ...
+
+<!-- The Bookmark (Heading) -->
+## Setup Instructions
+
 
 
 
