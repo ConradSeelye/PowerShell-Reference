@@ -1,5 +1,7 @@
 **DbaTools Reference**
 
+line 2  
+line 3  
 
 
 Set-PsRepository -Name PSGallery
