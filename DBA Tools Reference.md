@@ -26,9 +26,14 @@ Start-DbaMigration -Source abc -Destination def -SharedPath "NAS\Backup" -WhatIf
 
 quiz  
 1.   
-2.   
+2.  
 3.   
-4.  
+4.   
+
+
+
+
+  
 
 
 
