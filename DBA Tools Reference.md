@@ -1,5 +1,5 @@
 **DbaTools Reference**  
-[Quiz](#Quiz)
+[Quiz](##Quiz)
 
 Set-PsRepository -Name PSGallery  
 Install-Moduel dbaTools -Scope CurrentUser  
