@@ -1,82 +1,90 @@
-Microsoft.PowerShell.Core
-* about 100 commands
+# Microsoft.PowerShell.Core # 
+about 100 commands  
 Get-Command -Module Microsoft.PowerShell.Core | Select-Object -ExpandProperty Name
 
+# To Know #
+## cmdLets ##
+Get-Command  
+Get-Module  
+Import-Module  
+
+## Functions ##
+Clear-Host   
+Get-Verb 
 
 
-* cmdLets : 
-Add-History
-Add-PSSnapin
-Clear-History
-Connect-PSSession
-Debug-Job
-Disable-PSRemoting
-Disable-PSSessionConfiguration
-Disconnect-PSSession
-Enable-PSRemoting
-Enable-PSSessionConfiguration
-Enter-PSHostProcess
-Enter-PSSession
-Exit-PSHostProcess
-Exit-PSSession
-Export-Console
-Export-ModuleMember
-***
-ForEach-Object
-***
-Get-Command
-Get-Help
-Get-History
-Get-Job
-***
-Get-Module
-Get-PSHostProcessInfo
-Get-PSSession
-Get-PSSessionCapability
-Get-PSSessionConfiguration
-Get-PSSnapin
-***
-Import-Module
-Invoke-Command
-Invoke-History
-New-Module
-New-ModuleManifest
-New-PSRoleCapabilityFile
-New-PSSession
-New-PSSessionConfigurationFile
-New-PSSessionOption
-New-PSTransportOption
-Out-Default
-Out-Host
-Out-Null
-Receive-Job
-Receive-PSSession
-Register-ArgumentCompleter
-Register-PSSessionConfiguration
-Remove-Job
-Remove-Module
-Remove-PSSession
-Remove-PSSnapin
-Resume-Job
-Save-Help
-Set-PSDebug
-Set-PSSessionConfiguration
-Set-StrictMode
-Start-Job
-Stop-Job
-Suspend-Job
-Test-ModuleManifest
-Test-PSSessionConfigurationFile
-Unregister-PSSessionConfiguration
-Update-Help
-Wait-Job
-***
-Where-Object
+# To Learn #
+## cmdLets ##
+ForEach-Object  
+Where-Object  
 
-* Functions
+
+# Other #
+
+## cmdLets ##
+Add-History  
+Add-PSSnapin  
+Clear-History  
+Connect-PSSession  
+Debug-Job  
+Disable-PSRemoting  
+Disable-PSSessionConfiguration  
+Disconnect-PSSession  
+Enable-PSRemoting  
+Enable-PSSessionConfiguration  
+Enter-PSHostProcess  
+Enter-PSSession  
+Exit-PSHostProcess  
+Exit-PSSession  
+Export-Console  
+Export-ModuleMember  
+Get-Help  
+Get-History  
+Get-Job  
+Get-PSHostProcessInfo  
+Get-PSSession  
+Get-PSSessionCapability  
+Get-PSSessionConfiguration  
+Get-PSSnapin  
+Invoke-Command  
+Invoke-History  
+New-Module  
+New-ModuleManifest  
+New-PSRoleCapabilityFile  
+New-PSSession  
+New-PSSessionConfigurationFile  
+New-PSSessionOption  
+New-PSTransportOption  
+Out-Default  
+Out-Host  
+Out-Null  
+Receive-Job  
+Receive-PSSession  
+Register-ArgumentCompleter  
+Register-PSSessionConfiguration  
+Remove-Job  
+Remove-Module  
+Remove-PSSession  
+Remove-PSSnapin  
+Resume-Job  
+Save-Help  
+Set-PSDebug  
+Set-PSSessionConfiguration  
+Set-StrictMode  
+Start-Job  
+Stop-Job  
+Suspend-Job  
+Test-ModuleManifest  
+Test-PSSessionConfigurationFile  
+Unregister-PSSessionConfiguration  
+Update-Help  
+Wait-Job  
+
+
+
+## Functions ##
 Get-Command -CommandType Function | Where-Object { -not $_.Source }
-CommandType     Name                                               Version    Source        
------------     ----                                               -------    ------        
+       
 Function        A:                                                                          
 Function        B:                                                                          
 Function        C:                                                                          
@@ -115,6 +123,7 @@ Function        W:
 Function        X:                                                                          
 Function        Y:                                                                          
 Function        Z:                                                                          
+
 
 
 
